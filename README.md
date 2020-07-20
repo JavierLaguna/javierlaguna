@@ -19,7 +19,7 @@
 const javier = {
   pronouns: "he" | "him",
   code: [Swift, Javascript, HTML, CSS],
-  tools: [React, Redux, Storybook, Jest],
+  tools: [React, React Native, Redux, Storybook, Jest],
   architecture: ["MVVM", "VIPER", "Clean Swift (VIP)"]
 }
 ```
