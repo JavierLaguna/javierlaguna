@@ -1,5 +1,5 @@
 <h2> Hi there 👋,  I'm Javier Laguna!🤘🏻
-</br>Software Developer at <a href="https://www.innocv.com/">INNOCV</a>
+</br>Software Developer at <a href="https://www.innocv.com/">INNOCV Solutions</a>
 </em></p>
 
 [![Linkedin: JavierLaguna](https://img.shields.io/badge/-JavierLaguna-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/javier-laguna-iglesias-683691144/)](https://www.linkedin.com/in/javier-laguna-iglesias-683691144/)
