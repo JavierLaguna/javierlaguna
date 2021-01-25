@@ -16,6 +16,7 @@ const javier = {
   pronouns: "he" | "him",
   code: [Swift, Kotlin, Dart, Javascript, HTML, CSS],
   tools: [Flutter, React Native, React, Redux, Storybook, Jest],
-  architecture: ["Clean Architecture", "MVVM", "VIPER", "Clean Swift (VIP)", "Flux"]
+  architecture: ["Clean Architecture", "MVVM", "VIPER", "Clean Swift (VIP)", "Flux"],
+  platforms: [iOS, Android, Web]
 }
 ```
