@@ -12,11 +12,20 @@
 
 
 ```javascript
-const javier = {
+const aboutMe = {
   pronouns: "he" | "him",
-  code: [Swift, Kotlin, Dart, Javascript, HTML, CSS],
-  tools: [Flutter, React Native, React, Redux, Storybook, Jest],
+  code: [Swift, Kotlin, Dart, Typescript, Javascript, HTML, CSS],
   architecture: ["Clean Architecture", "MVVM", "VIPER", "Clean Swift (VIP)", "Flux"],
-  platforms: [iOS, Android, Web]
+  technologies: {
+      mobile: {
+        native: ["iOS (Swift)", "Android (Kotlin)"],
+        hybrid: ["Flutter", "React Native"]
+      },
+      frontEnd: {
+         js: ["React", "Redux", "Backbone"],
+         css: ["SASS", "LESS", "BEM", "Material Design", "Bootstrap"]
+      },
+      testing: ["XCTest", "Jest", "JUnit"]
+   }
 }
 ```
