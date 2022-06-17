@@ -17,7 +17,7 @@ const aboutMe = {
   technologies: {
       mobile: {
         iOS: {
-          code: "Swift",
+          code: Swift,
           ui: ["SwiftUI", "UIKit"],
           architecture: ["VIPER", "The Composable Architecture (TCA)", "Clean Architecture", "MVVM", "Clean Swift (VIP)"],
           libraries: ["Combine", "MapKit", "CallKit", "RxSwift"],
@@ -26,7 +26,7 @@ const aboutMe = {
           dependencies: ["Swift Package Manager", "CocoaPods"]
         },
         Android: {
-          code: "Kotlin",
+          code: Kotlin,
           ui: "Android Views (XML)",
           architecture: ["Clean Architecture", "MVVM"],
           libraries: ["LiveData", "Retrofit"],
@@ -34,12 +34,12 @@ const aboutMe = {
           testing: "JUnit"
         },
         Flutter: {
-          code: "Dart",
+          code: Dart,
           architecture: ["Clean Architecture", "MVVM"],
           libraries: "GetX"
         },
         ReactNative: {
-          code: "Typescript",
+          code: Typescript,
           architecture: "Flux (Redux)",
           libraries: ["React Navigation"],
           testing: "Jest",
