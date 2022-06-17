@@ -14,18 +14,44 @@
 ```javascript
 const aboutMe = {
   pronouns: "he" | "him",
-  code: [Swift, Kotlin, Dart, Typescript, Javascript, HTML, CSS],
-  architecture: ["Clean Architecture", "MVVM", "VIPER", "Clean Swift (VIP)", "Flux"],
   technologies: {
       mobile: {
-        native: ["iOS (Swift)", "Android (Kotlin)"],
-        hybrid: ["Flutter", "React Native"]
+        iOS: {
+          code: "Swift",
+          ui: ["SwiftUI", "UIKit"],
+          architecture: ["VIPER", "The Composable Architecture (TCA)", "Clean Architecture", "MVVM", "Clean Swift (VIP)"],
+          libraries: ["Combine", "MapKit", "CallKit", "RxSwift"],
+          bbdd: ["CoreData", "Realm"],
+          testing: "XCTest",
+          dependencies: ["Swift Package Manager", "CocoaPods"]
+        },
+        Android: {
+          code: "Kotlin",
+          ui: "Android Views (XML)",
+          architecture: ["Clean Architecture", "MVVM"],
+          libraries: ["LiveData", "Retrofit"],
+          bbdd: "Room",
+          testing: "JUnit"
+        },
+        Flutter: {
+          code: "Dart",
+          architecture: ["Clean Architecture", "MVVM"],
+          libraries: "GetX"
+        },
+        ReactNative: {
+          code: "Typescript",
+          architecture: "Flux (Redux)",
+          libraries: ["React Navigation"],
+          testing: "Jest",
+          dependencies: "npm"
+        }
       },
       frontEnd: {
-         js: ["React", "Redux", "Backbone"],
-         css: ["SASS", "LESS", "BEM", "Material Design", "Bootstrap"]
-      },
-      testing: ["XCTest", "Jest", "JUnit"]
+         html: 5,
+         css: 3,
+         js: ["React", "Redux", "Backbone", "Jest"],
+         cssTools: ["SASS", "LESS", "BEM", "Material Design", "Bootstrap"]
+      }
    }
 }
 ```
