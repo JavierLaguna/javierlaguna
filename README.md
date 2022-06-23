@@ -20,7 +20,7 @@ const aboutMe = {
           code: Swift,
           ui: ["SwiftUI", "UIKit"],
           architecture: ["VIPER", "The Composable Architecture (TCA)", "Clean Architecture", "MVVM", "Clean Swift (VIP)"],
-          libraries: ["Combine", "MapKit", "CallKit", "RxSwift"],
+          libraries: ["Combine", "ARKit", "MapKit", "CallKit", "RxSwift"],
           bbdd: ["CoreData", "Realm"],
           testing: "XCTest",
           dependencies: ["Swift Package Manager", "CocoaPods"]
